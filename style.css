@@ -76,7 +76,7 @@ h3 {
 .loginWin footer {
     margin: 0 auto 70px;
     padding: 20px;
-    width: 30%;
+    min-width: 380px;
     position: relative;
     background-color: #ebedf2;
     text-align: center;
@@ -113,7 +113,7 @@ h3 {
     padding: 20px;
     min-height: 270px;
     /* max-height: 50vh; */
-    width: 30%;
+    min-width: 380px;
     position: relative;
     transform: all 5s ease-in-out;
     background-color: #ffffff;
