@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* border: 1px solid red !important; */
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    letter-spacing: -0.5px;
+    line-height: 70px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 26px;
+    font-style: normal;
+    line-height: 44.2px;
+    color: #ffffff;
+}
+
+.small {
+    font-size: 8px;
+}
+
+/* login window */
+
+.loginWin {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    z-index: 2;
+    opacity: 0;
+    color: #333333;
+}
+
+.loginWin a {
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+/* .loginWin:target {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.loginWin button {
+        padding: 15px 25px;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        border-style: none;
+        background-color: #151516;
+        color: #ffffff;
+    }
+
+.loginWin footer {
+    margin: 0 auto 70px;
+    padding: 20px;
+    width: 30%;
+    position: relative;
+    background-color: #ebedf2;
+    text-align: center;
+}
+
+.loginWin h3 {
+    padding: 40px 20px 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-weight: bold;
+}
+
+.loginWin form input {
+    height: 48px;
+    border-radius: 4px;
+    background-color: #FFF;
+    font-family: Graphik;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 16px;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border: 1px solid #272C35;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+}
+
+.wrapper {
+    margin: 70px auto 0;
+    padding: 20px;
+    min-height: 270px;
+    /* max-height: 50vh; */
+    width: 30%;
+    position: relative;
+    transform: all 5s ease-in-out;
+    background-color: #ffffff;
+}
+
+
+.wrapper .content {
+    max-height: 100%;
+    overflow: auto;
+}
+
+.wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 25px 20px;
+    width: 98%;
+    box-sizing: border-box;
+}
+
+/* login window */
+
+
+/* nav */
+
+    nav {
+        display: flex;
+        justify-content: end;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+/* nav */
+
+/* hero */
+
+    .heroSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 50px;
+        background: url("assets/images/header.jpg") no-repeat center center / cover ;
+        max-width: 100vw;  
+        box-sizing: border-box;
+    }
+
+    .hero {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px
+    }
+
+    .hero img {
+        width: 30%;
+    }
+
+    .hero button {
+        padding: 15px 25px;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        border-style: none;
+    }
+
+    .hero .thirdLine {
+        font-weight: bolder;
+    }
+
+    .hero .forthLine {
+         font-size: 13px;
+    }
+
+
+/* hero */
+/* bundle */
+
+    .bundle {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        background-color: #0a232e;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+
+    .bundle img {
+        width: 30%;
+        height: 30%
+    }
+    .bundle a {
+        color: white;
+        font-size: 10px;
+    }
+
+    .bundleDis p {
+        font-size: 20px;
+    }
+
+    .buttonDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 20px;
+    }
+
+    .buttonDiv button {
+        display: block;
+        background-color: inherit;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 25px;
+        border-radius: 3px;
+    }
+
+/* bundle */
+
+/* cover */
+
+.coverSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 55px 0 45px 0;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.cover {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.cover img {
+    width: 294px;
+    height: 450px;
+}
+
+/* cover */
+
+
+/* liveTv */
+
+.liveTv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #151516;
+    padding-top: 30px;    
+    box-sizing: border-box;
+}
+
+.liveTv img {
+    width: 100%;
+}
+
+.liveTvP {
+    width: 60%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    height: 40%;
+    gap: 15px;
+    border: 2px solid #00ed82;
+    padding: 40px 0;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.box a {
+    color: white;
+}
+/* liveTv */
+/* liveSports */
+
+.liveSports {
+    padding: 20px;
+    background: url("assets/images/live-sports.jpg") no-repeat center center / cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+
+}
+.liveSports .content {
+    max-width: 50%;
+}
+
+.liveSports img {
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 5px; 
+    margin-bottom: 20px;
+}
+
+
+/* liveSports */
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    box-sizing: border-box;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    padding: 30px 0;
+}
+
+.column {
+    padding-left: 5px;
+}
+
+hr {
+    width: 65vw;
+    color: #333333;
+}
+
+.footer h4 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.footer span {
+    color: #333333;
+    display: block;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    gap: 25px;
+    align-self: start;
+    width: 65vw;
+    margin: 0 17.5vw;
+}
+
+/* footer */

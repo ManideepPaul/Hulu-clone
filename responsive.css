@@ -1,0 +1,49 @@
+@media screen and (max-width : 1250px) {
+    .bundle {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        background-color: #0a232e;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+
+    .buttonDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 0;
+    }
+
+    .bundle img {
+        min-width: 330px;
+        height: 75px;
+    }
+
+    .cover {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    }
+
+    .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65vw;
+    padding: 30px 0;
+    }
+
+    .liveSports .content {
+    max-width: 90%;
+    }
+
+    .column {
+    padding-left: 5px;
+    margin-bottom: 15px;
+    }
+}
